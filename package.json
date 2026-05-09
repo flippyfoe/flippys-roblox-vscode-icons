@@ -1,0 +1,17 @@
+{
+  "name": "flippys-roblox-vscode-icons",
+  "displayName": "Flippy's Roblox VSCode Icons",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "main": "./activate.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "flippys-roblox-vscode-icons",
+        "label": "Flippy's Roblox VSCode Icons",
+        "path": "./icon-theme.json"
+      }
+    ]
+  }
+}
