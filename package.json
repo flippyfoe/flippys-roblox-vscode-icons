@@ -1,10 +1,14 @@
 {
   "name": "flippys-roblox-vscode-icons",
   "displayName": "Flippy's Roblox VSCode Icons",
-  "version": "0.0.1",
-  "engines": { "vscode": "^1.60.0" },
+  "version": "0.3.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
   "main": "./activate.js",
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "iconThemes": [
       {
@@ -13,5 +17,9 @@
         "path": "./icon-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlippyFoe/flippys-roblox-vscode-icons"
   }
 }

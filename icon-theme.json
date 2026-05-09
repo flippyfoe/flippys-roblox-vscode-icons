@@ -27,6 +27,7 @@
     "_folder-assets": { "iconPath": "./icons/folder-assets.svg" },
     "_folder-open-assets": { "iconPath": "./icons/folder-open-assets.svg" },
     "_gitignore": { "iconPath": "./icons/gitignore.svg" },
+    "_license-md": { "iconPath": "./icons/license-md.svg" },
     "_script-client": { "iconPath": "./icons/script-client.svg" },
     "_script-module": { "iconPath": "./icons/script-module.svg" },
     "_script-server": { "iconPath": "./icons/script-server.svg" },
@@ -130,6 +131,8 @@
     "rokit.toml": "_package-tomls",
     "selene.toml": "_script-tomls",
     ".gitignore": "_gitignore",
+    "license.md": "_license-md",
+    "license.txt": "_license-md",
     "wally.toml": "_wally",
     "wally.lock": "_wally-locked"
   },
